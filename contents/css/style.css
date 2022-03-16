@@ -1,0 +1,78 @@
+/* Header */
+nav{
+    display: flex;
+    align-items: baseline;
+    font-family: "Source Sans Pro", Arial, sans-serif;
+    border-bottom: 1px solid gray;
+}
+#coursera-top-logo{  
+    width: 127px;
+}
+.explore-btn-container{
+    margin-left: 2%;
+}
+.explore-btn{
+    background-color: #0056d2;
+    font-weight: bold;
+    color: White;
+    padding: 10px 20px;
+    border-radius: 5px;
+    border: 0px;
+}
+.explore-btn:hover{
+    background-color: white;
+    color: #0056d2;
+    border: 2px solid black;
+    transition: all 0.5s;
+}
+.serach-bar-container{
+    margin-left: 2%;
+}
+#search-box{
+    padding-right: 200px;
+    padding-left: 5px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+#searchButton{
+    background-color: #0056d2;
+    margin-left: -5px;
+    color: white;
+    padding-bottom: 4px;
+    height: 40px;
+    width: 45px;
+    border: 0px;
+}
+#searchButton:hover{
+    cursor: pointer;
+}
+.remove-bullets{
+    list-style: none;
+    display: flex;
+    align-items: baseline;
+}
+.space-between{
+    margin-right: 28px;
+    font-size: 14px;
+}
+.space-between:hover{
+    cursor: pointer;
+    color: #3254ee;
+    text-decoration: underline;
+}
+
+#join-for-free{
+    background-color: #0056d2;
+    font-weight: bold;
+    color: White;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-radius: 5px;
+}
+#join-for-free:hover{
+    text-decoration: none;
+    background-color: #24487c;
+    transition: all 0.5s;
+}
