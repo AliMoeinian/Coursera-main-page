@@ -52,7 +52,7 @@ nav{
     align-items: baseline;
 }
 .space-between{
-    margin-right: 28px;
+    margin-right: 27px;
     font-size: 14px;
 }
 .space-between:hover{
@@ -60,7 +60,6 @@ nav{
     color: #3254ee;
     text-decoration: underline;
 }
-
 #join-for-free{
     background-color: #0056d2;
     font-weight: bold;
@@ -73,6 +72,84 @@ nav{
 }
 #join-for-free:hover{
     text-decoration: none;
-    background-color: #24487c;
+    background-color: #152ba8;
     transition: all 0.5s;
+}
+/* Front Page */
+#front-page{
+    font-family: "Source Sans Pro", Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+}
+.front-page-img-container{
+    margin-left: 200px;
+} 
+#learn-without-limits-txt{
+    font-size: 84px;
+}
+#front-page-main-text{
+    font-size: 20px;
+}
+#front-page-joinFree-btn{
+    font-weight: bold;
+    font-size: 20px;
+    background-color: #0056d2;
+    color: white;
+    border: 0px;
+    border-radius: 3px;
+    padding: 12px 32px 12px 32px;
+    height: 72px;
+    width: 238px;
+}
+#front-page-joinFree-btn:hover{
+    background-color: #152ba8;
+    transition: all 0.5s;
+    cursor: pointer;
+}
+#coursera-business-btn{
+    font-weight: bold;
+    font-size: 20px;
+    background-color: white;
+    color: #0056d2;
+    border: 3px solid #0056d2;
+    border-radius: 3px;
+    padding: 12px 32px 12px 32px;
+    height: 72px;
+}
+#coursera-business-btn:hover{
+    background-color: #b7cff3;
+    color: rgb(35, 35, 180);
+    transition: all 0.5s;
+    cursor: pointer;
+}
+/* Collaboration university list */
+#collaboration-uni-list{
+    font-family: "Source Sans Pro", Arial, sans-serif;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+   background-color: #f5f5f5;
+   margin-top: 70px;
+   height: 299px;
+}
+.collaboration-txt{
+    font-size: 28px;
+    font-weight: 500;
+    text-align: center;
+}
+.collaboration-txt:hover{
+    cursor: pointer;
+}
+#span-coll-txt:hover{
+    text-decoration: underline;
+}
+.collboration-uni-img-container{
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 10px;
+}
+.collboration-uni-img-container:hover{
+    cursor: pointer;
 }
