@@ -1,9 +1,11 @@
 /* Header */
 nav{
+    background-color: white;
     display: flex;
     align-items: baseline;
     font-family: "Source Sans Pro", Arial, sans-serif;
     border-bottom: 1px solid gray;
+    position: sticky;
 }
 #coursera-top-logo{  
     width: 127px;
@@ -22,7 +24,7 @@ nav{
 .explore-btn:hover{
     background-color: white;
     color: #0056d2;
-    border: 2px solid black;
+    border: 1px solid black;
     transition: all 0.5s;
 }
 .serach-bar-container{
@@ -152,4 +154,63 @@ nav{
 }
 .collboration-uni-img-container:hover{
     cursor: pointer;
+}
+/* course list */
+#course-lists{
+    font-family:"Source Sans Pro", Arial, sans-serif;
+}
+.courseList-text-container{
+    display: flex;
+    flex-direction: column;
+    margin-left:130px;
+    margin-bottom: 70px;
+    margin-top: 50px;
+}
+#professional-certificate-text{
+    color: #382d8b;
+    font-size: 20px;
+    line-height: 28px;
+    font-weight: bold;
+}
+#get-job-ready-text{
+    font-size: 44px;
+    line-height: 51.2px;
+    padding: 10px;
+}
+#break-into-newField-text{
+    font-size: 20px;
+    line-height: 28px;
+}
+.course-lists{
+    display: flex;
+    justify-content: center;
+}
+.course-card{
+    background-color: crimson;
+    margin-right: 20px;
+    height: 400px;
+    width: 292px;
+    box-shadow: rgba(0, 0, 0, 0.15) 2.4px 2.4px 3.2px;
+    text-align: center;
+    font-weight: bold;
+}
+.course-card:hover{
+    cursor: pointer;
+    box-shadow: rgba(0, 0, 0, 0.4) 0px 4px 4px, rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
+}
+#google-course-card{
+    background-color: #FFFFFF;
+    background-image: linear-gradient(180deg, #FFFFFF 0%, #6284FF 50%, #FF0000 100%);
+}
+#marketing-course-card{
+    background-color: #00DBDE;
+    background-image: linear-gradient(90deg, #00DBDE 0%, #FC00FF 100%);
+}
+#data-engineering-course-card{
+    background-color: #4158D0;
+    background-image: linear-gradient(43deg, #4158D0 0%, #C850C0 46%, #FFCC70 100%); 
+}
+#AI-course-card{
+    background-color: #8EC5FC;
+    background-image: linear-gradient(62deg, #8EC5FC 0%, #E0C3FC 100%);
 }
