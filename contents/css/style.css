@@ -347,3 +347,63 @@ nav{
     font-size: 20px;
     text-align-last: center;
 }
+/* coursera for business */
+#coursera-for-business{
+   display: flex;
+   height: 486px;
+   background-color: #f9f7ef;
+   justify-content: space-evenly;
+   align-items: center;
+   margin-top: 100px;
+}
+.coursera-business-btn{
+    color: #2856d2;
+   background-color: #f9f7ef;
+    font-weight: bold;
+    font-size: 16px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 30px;
+    padding-right: 30px;
+    border: 2px solid #2856d2;
+    border-radius: 5px;
+    margin-right: 10px;
+}
+.coursera-business-btn:hover{
+    cursor: pointer;
+    background-color: #79aff66e;
+    transition: all 400ms;
+}
+.business-logo-container{
+    border: 3px outset #2856d2;
+    border-radius: 5px;
+    padding: 20px;
+}
+/* next step */
+#next-step{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-top: 100px;
+    height: 500px;
+}
+#join-for-free-next-step:hover{
+    cursor: pointer;
+}
+/* footer */
+footer {
+    display: flex;
+    justify-content: space-evenly;
+    background-color: #f5f5f5;
+}
+.margin-top{
+    margin-top: 20px;
+}
+.apple-google-store-pic-container{
+    display: flex;
+    flex-direction: column;
+}
+.submenu:hover{
+    text-decoration: underline;
+    cursor: pointer;
+}
